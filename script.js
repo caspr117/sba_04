@@ -42,6 +42,8 @@ populateList()
 
 
   list.addEventListener("change",async (event)=>{
+    const images = document.querySelectorAll("img")
+    images.forEach(ele => ele.remove())
     console.log(event.target.value)
      const s = await axios.get(`https://api.jikan.moe/v4/anime/${event.target.value}/pictures`)
 

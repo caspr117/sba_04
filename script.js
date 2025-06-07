@@ -56,6 +56,7 @@ populateList()
       
       const m = document.createElement('img')
       m.src = ele.jpg.large_image_url
+      m.style.border = "2px solid white"
       m.style.width="auto"
       m.style.display="block"
       advisory.textContent = ""

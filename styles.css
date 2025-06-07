@@ -3,10 +3,13 @@ body{
 }
 #rating{
     color: green ;
+    font-style:italic;
 }
 #plot{
     color: green;
+    font-style: italic;
 }
 #aired{
     color: green;
+    font-style: italic;
 }
